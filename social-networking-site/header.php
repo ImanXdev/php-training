@@ -7,7 +7,7 @@
  */
 session_start();
 
-echo "<!DOCTYPE html>\n<htm><head>";
+echo "<!DOCTYPE html>\n<html><head>";
 
 require_once 'functions.php';
 

@@ -1,4 +1,4 @@
-canvas = 0('logo');
+canvas = O('logo');
 context = canvas.getContext('2d');
 context.font = 'bold italic 97px Georgia';
 context.textBaseline = 'top';
@@ -18,7 +18,7 @@ image.onload = function(){
 function O(obj) {
     if(typeof obj == 'object') return obj;
     else {
-        document.getElementById(obj);
+        return document.getElementById(obj);
     }
 }
 
