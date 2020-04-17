@@ -80,12 +80,12 @@ echo <<<_END
         <input type="text" maxlength="16" name="user" value="$user" onblur="checkUser(this)">
         <span id="info"></span><br>
         <span class="fieldname">Password</span>
-        <input type="text" maxlength="16" name="pass" value="$pass">
+        <input type="text" maxlength="16" name="pass" value="$pass"><br>
 _END;
 ?>
 
 <span class="fieldname">&nbsp;</span>
-<input type="submit" value="Sign up">
+<input class="" type="submit" value="Sign up">
 </form></div><br>
 </body>
 </html>
